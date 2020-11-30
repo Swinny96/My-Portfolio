@@ -1,15 +1,16 @@
 import React from 'react'
 import styled from 'styled-components'
 import Accordion from './Accordion'
+import { Link } from "gatsby"
 
 const Experince = props => (
     <Job>
-        <h3>{props.title}</h3>
-        <a href={props.link} target="_blank">
-        <img className="light" src={props.image} />
-        <img className="dark" src={props.darkimage} />
-        </a>
-        <p>{props.text}</p>
+        <Title>{props.title}</Title>
+        <Link href={props.link} target="_blank" rel="noreferrer" aria-label={props.company}>
+        <Light src={props.image} alt={props.alt} />
+        <Dark src={props.darkimage} alt={props.alt} />
+        </Link>
+        <Text>{props.text}</Text>
         <Accordion 
         title="Responsibilities"
         content={props.content}
@@ -28,21 +29,7 @@ const Job = styled.div`
     transform: translateY(-3px);
     }
 
-    .light{
-        display: block;
-    }
-
-    .dark{
-        display: none;
-    }
-
     @media (prefers-color-scheme: dark){
-        .light{
-            display: none;
-        }
-        .dark{
-            display: block;
-        }
         .Responsibilities:hover{
             box-shadow: 0 10px 20px rgba(255,255,255,255.25)!important;
         }
@@ -68,3 +55,23 @@ const Job = styled.div`
     transform: translateY(-3px);
   }
 `
+
+const Light = styled.img`
+    display: block;
+
+    @media (prefers-color-scheme: dark){
+        display: none;
+    }
+`
+
+const Dark = styled.img`
+    display: none;
+
+    @media (prefers-color-scheme: dark){
+        display: block;
+    }
+`
+
+const Title = styled.h3``
+
+const Text = styled.p``

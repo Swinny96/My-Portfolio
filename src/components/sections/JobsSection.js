@@ -8,8 +8,10 @@ const Jobs = ({ siteTitle }) => (
             <Job 
                 title="Digital Developer"
                 link="https://www.leedsbeckett.ac.uk/"
+                company="Leeds Beckett University"
                 image={require('../images/companys/lbu.svg')}
                 darkimage={require('../images/companys/lbudark.svg')}
+                alt="Leeds Beckett University"
                 text="
                     Carrying out digital development work for the University’s website transformation project ‘Website 2020’
                     Using their CMS, Sitecore to build pages, templates and content for the website and to ensure all development
@@ -33,8 +35,10 @@ const Jobs = ({ siteTitle }) => (
             <Job 
                 title="Web & Digital Assistant "
                 link="https://www.uclan.ac.uk/"
+                company="University Of Central Lancashire"
                 image={require('../images/companys/uclan.svg')}
                 darkimage={require('../images/companys/uclandark.svg')}
+                alt="University Of Central Lancashire"
                 text="
                 Working in a fast-paced and dynamic marketing environment to deliver an effective digital offering to
                     prospective students, their influencers, UCLAN staff, students and other affiliates.

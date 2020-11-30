@@ -1,6 +1,3 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-
 let toggle = document.querySelector('.toggle-theme');
 
 toggle.addEventListener('click', function(e) {

@@ -5,9 +5,9 @@ import Link from 'gatsby-link'
 const About = ({ siteTitle }) => (
     <Section>
         <Title>Hey - I'm Chris!</Title>
-            <Text>An Digital Developer at Leeds Beckett University, an Web Design & Development graduate and a former Student of
-                  the Year - Highly skilled knowledge and experience of working with industry standard UX tech tooling associated 
-                  with designer and developer competencies and proficiencies.
+            <Text>A Digital Developer at Leeds Beckett University, Web Design & Development graduate and a 
+            former Student of the Year - Highly skilled knowledge and experience of working with industry 
+            standard UX tech tooling associated with designer and developer competencies and proficiencies.
             </Text>
             <Link className="btn" to="#projects"> Take Look At My Work ▼ </Link>
     </Section>

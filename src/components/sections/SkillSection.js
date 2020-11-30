@@ -6,8 +6,8 @@ const SkillSection = ({ siteTitle }) => (
     <Section>
         <Title>Skills</Title>
             <Skill
-        percentage="100"
-        skill="Adobe CS"
+            percentage="100"
+            skill="Adobe CS"
             />
             <Skill
             percentage="100"

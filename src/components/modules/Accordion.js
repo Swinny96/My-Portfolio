@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react"
-import Chevron from "./Chevron.js"
+// import Chevron from "./Chevron.js"
 import "./accordion.css";
 
 function Accordion(props) {

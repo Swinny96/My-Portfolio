@@ -33,7 +33,3 @@ const Skill = styled.div`
 const Content = styled.tspan`
 
 `
-
-const Level = styled.tspan`
-
-`

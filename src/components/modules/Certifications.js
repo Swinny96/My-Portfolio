@@ -5,12 +5,12 @@ import Link from 'gatsby-link'
 const Certifications = props => (
     <Certification>
         <h3>{props.title}</h3>
-        <Link className="Comapny" href={props.link} target="_blank" aria-label={props.company}>
+        <Link className="Comapny" href={props.link} rel="noreferrer" target="_blank" aria-label={props.company}>
         <img className={props.company} src={props.image} alt={props.company} />
         <p>{props.company}</p> 
         </Link>
         <p>{props.text}</p>
-        <Link className="btn" href={props.cert} target="_blank">
+        <Link className="btn" href={props.cert} rel="noreferrer" target="_blank" aria-label={props.company}>
         See Certification
         </Link>
     </Certification>

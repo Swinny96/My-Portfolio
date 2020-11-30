@@ -11,11 +11,11 @@ const Certification = ({ siteTitle }) => (
                 company="IDEO"
                 image={require('../images/companys/ideo.webp')}
                 text="
-                This 7-week course provided an introduction to the methods and tools of human-centered design,
-                    while tackling a real-world design challenge. Topics covered in the course included:
-                    human-centered design research methods, concept generation, and rapidly prototyping a
-                    solution to a poverty-related design challenge.
-                    "
+                This 7-week course provided an introduction to the methods and tools of human-centred 
+                design while tackling a real-world design challenge. Topics covered in this course 
+                included: human-centred design research methods, concept generation, and rapidly 
+                prototyping a solution to a poverty-related design challenge.
+                "
                 cert="https://plusacumen.novoed.com/#!/courses/design-kit-2019-3/statements/1912406"
             />
     </Section>

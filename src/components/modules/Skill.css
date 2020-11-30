@@ -3,9 +3,11 @@
  * All of the styles in this file are configurable!
  */
 :root {
-  --Expert: #83e4e2;
+  --Expert: #1C8281;
   --Intermediate: #a2ed56;
   --Basic: #fca858;
+
+  --ExpertDark: #83e4e2;
 }
 
 .CircularProgressbar {
@@ -70,4 +72,21 @@
 
 .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-trail {
   stroke: transparent;
+}
+
+@media (prefers-color-scheme: dark){
+
+  .CircularProgressbar .CircularProgressbar-path{
+    stroke: var(--ExpertDark);
+  }
+  .CircularProgressbar .CircularProgressbar-trail{
+    stroke: var(--ExpertDark);
+  }
+  .CircularProgressbar .CircularProgressbar-text{
+    fill: var(--ExpertDark);
+  }
+  .CircularProgressbar.CircularProgressbar-inverted
+  .CircularProgressbar-background{
+    fill: var(--ExpertDark);
+  }
 }

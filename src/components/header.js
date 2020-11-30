@@ -8,19 +8,19 @@ const Hero = ({ siteTitle }) => (
     <HeaderSection>
       <Toggle>
         <Icon>
-          <Sun src={require('../images/toggle/sun.svg')} />
-          <Moon src={require('../images/toggle/moon.svg')} />
+          <Sun alt="Sun" src={require('../images/toggle/sun.svg')} />
+          <Moon alt="Moon" src={require('../images/toggle/moon.svg')} />
         </Icon>
       </Toggle>
-      <HeroImage src={require('../images/hero/webp/me.webp')}/>
+      <HeroImage alt="Christopher Swinton" src={require('../images/hero/webp/me.webp')}/>
         <Title>Christopher Swinton</Title>
         <SubTitle>Digital Developer for Leeds Beckett University</SubTitle>
         <ContactSection>
-          <Link href="https://www.linkedin.com/in/cswinton96/" target="_blank" className="HeroContact">
-            <Contact src={require('../images/linkedin.webp')}/>
+          <Link href="https://www.linkedin.com/in/cswinton96/" target="_blank" rel="noreferrer" aria-label="View Chris Swintons LinkedIn Profile" className="HeroContact">
+            <Contact alt="LinkedIn" src={require('../images/linkedin.webp')}/>
           </Link>
-          <Link href="mailto:cswintonux@gmail.com?Subject=UX" target="_blank" className="HeroContact">
-            <Contact src={require('../images/gmail.webp')}/>
+          <Link href="mailto:cswintonux@gmail.com?Subject=UX" target="_blank" rel="noreferrer" aria-label="Email Chris Swinton" className="HeroContact">
+            <Contact alt="GMail" src={require('../images/gmail.webp')}/>
           </Link>
         </ContactSection>
     </HeaderSection>

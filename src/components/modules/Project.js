@@ -1,17 +1,18 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Link } from "gatsby"
 
 const Project = props => (
     <ProjectObject>
         <ProjectConetents>
-        <h3>{props.title}</h3>
-        <p>{props.text}</p>
-        <p>{props.status}</p>
-        <p>{props.date}</p>
+            <Title>{props.title}</Title>
+            <Text>{props.text}</Text>
+            <Status>{props.status}</Status>
+            <Date>{props.date}</Date>
         </ProjectConetents>
-        <a href={props.url} target="_blank" className="Project-Card" id={props.id}>
-        <img src={props.image} id={props.id} />
-        </a>
+        <Link href={props.url} target="_blank" rel="noreferrer" className="Project-Card" id={props.id} aria-label={props.alt}>
+            <img src={props.image} id={props.id} alt={props.alt} />
+        </Link>
     </ProjectObject>
 )
 
@@ -83,3 +84,15 @@ const ProjectConetents = styled.div `
         padding: 0px!important;
     }
 `
+
+const Title = styled.strong `
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+`
+const Text = styled.p ``
+const Status = styled.em ``
+const Date = styled.p ``
