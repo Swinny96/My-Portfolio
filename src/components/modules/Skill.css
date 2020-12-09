@@ -3,7 +3,7 @@
  * All of the styles in this file are configurable!
  */
 :root {
-  --Expert: #1C8281;
+  --Expert: #1c8281;
   --Intermediate: #a2ed56;
   --Basic: #fca858;
 
@@ -74,19 +74,18 @@
   stroke: transparent;
 }
 
-@media (prefers-color-scheme: dark){
-
-  .CircularProgressbar .CircularProgressbar-path{
+@media (prefers-color-scheme: dark) {
+  .CircularProgressbar .CircularProgressbar-path {
     stroke: var(--ExpertDark);
   }
-  .CircularProgressbar .CircularProgressbar-trail{
+  .CircularProgressbar .CircularProgressbar-trail {
     stroke: var(--ExpertDark);
   }
-  .CircularProgressbar .CircularProgressbar-text{
+  .CircularProgressbar .CircularProgressbar-text {
     fill: var(--ExpertDark);
   }
   .CircularProgressbar.CircularProgressbar-inverted
-  .CircularProgressbar-background{
+    .CircularProgressbar-background {
     fill: var(--ExpertDark);
   }
 }
