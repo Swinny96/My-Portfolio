@@ -4,7 +4,7 @@ import Job from '../modules/Experince'
 
 const Jobs = ({ siteTitle }) => (
     <Section>
-        <Title>Experince</Title>
+        <Title>Experience</Title>
             <Job 
                 title="Digital Developer"
                 link="https://www.leedsbeckett.ac.uk/"

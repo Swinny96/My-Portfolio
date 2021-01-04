@@ -84,6 +84,15 @@ img.IDEO {
   justify-items: center;
 }
 
+#UCAS{
+  background: #000;
+  border-color: #e00223;
+}
+
+#UCAS img{
+  max-width: 250px;
+}
+
 #ASSIZT {
   border-color: #ffd343;
   background: #15113b;
@@ -94,12 +103,12 @@ img.IDEO {
 }
 
 #PL {
-  border-color: #3d195b;
-  background-color: #fff;
+  border-color: #37003c;
+  background-color:#410D46;
 }
 
 #PL img {
-  max-width: 240px;
+  max-width: 140px;
 }
 
 #smarthomehelp {

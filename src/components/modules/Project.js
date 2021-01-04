@@ -7,11 +7,16 @@ const Project = props => (
         <ProjectConetents>
             <Title>{props.title}</Title>
             <Text>{props.text}</Text>
+            <Text>{props.para2}</Text>
             <Status>{props.status}</Status>
             <Date>{props.date}</Date>
+            {/* <p>Built With</p>
+            <BuiltWith>
+                <Tool>{props.tool}</Tool>
+            </BuiltWith> */}
         </ProjectConetents>
-        <Link href={props.url} target="_blank" rel="noreferrer" className="Project-Card" id={props.id} aria-label={props.alt}>
-            <img src={props.image} id={props.id} alt={props.alt} />
+        <Link href={props.link} target="_blank" rel="noreferrer" className="Project-Card" id={props.id} aria-label={props.alt}>
+            <ProjectImage src={props.image} id={props.id} alt={props.alt} />
         </Link>
     </ProjectObject>
 )
@@ -23,7 +28,7 @@ const ProjectObject = styled.div `
     justify-content: space-between;
     margin: 50px 0px;
 
-    @media (max-width: 600px){
+    @media (max-width: 700px){
         flex-direction: column-reverse !important;
 
         .Project-Card{
@@ -77,11 +82,11 @@ const ProjectObject = styled.div `
 
 const ProjectConetents = styled.div `
     width: 50%;
-    padding: 32px;
+    margin: 0px 16px;
 
-    @media (max-width: 600px){
+    @media (max-width: 700px){
         width: 100%!important;
-        padding: 0px!important;
+        margin: 0px!important;
     }
 `
 
@@ -96,3 +101,18 @@ const Title = styled.strong `
 const Text = styled.p ``
 const Status = styled.em ``
 const Date = styled.p ``
+const ProjectImage = styled.img ``
+const BuiltWith = styled.div`
+    display: flex;
+`
+const Tool = styled.div`
+  margin: 8px 8px 8px 0px;
+  border: 2px solid;
+  border-radius: 20px;
+  font-weight: bold;
+  padding: 8px 16px;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+`
