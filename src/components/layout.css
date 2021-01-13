@@ -185,6 +185,15 @@ img.IDEO {
 #Radar {
   background-color: #fff;
 }
+#FoodStall{
+  background: #f3f4dd;
+  border-color: #f7dfa2
+}
+
+#Salad{
+  background: #66a037;
+  border-color: #94e751;
+}
 
 .tab-list {
   padding-left: 0;
