@@ -84,12 +84,12 @@ img.IDEO {
   justify-items: center;
 }
 
-#UCAS{
+#UCAS {
   background: #000;
   border-color: #e00223;
 }
 
-#UCAS img{
+#UCAS img {
   max-width: 250px;
 }
 
@@ -104,7 +104,7 @@ img.IDEO {
 
 #PL {
   border-color: #37003c;
-  background-color:#410D46;
+  background-color: #410d46;
 }
 
 #PL img {
@@ -185,14 +185,23 @@ img.IDEO {
 #Radar {
   background-color: #fff;
 }
-#FoodStall{
+#FoodStall {
   background: #f3f4dd;
-  border-color: #f7dfa2
+  border-color: #f7dfa2;
 }
 
-#Salad{
+#Salad {
   background: #66a037;
   border-color: #94e751;
+}
+
+#React {
+  background: #282c34;
+  border-color: #61dbfb;
+}
+
+#ReactIcon {
+  animation: React-spin infinite 10s linear;
 }
 
 .tab-list {

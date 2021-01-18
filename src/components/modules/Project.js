@@ -24,7 +24,7 @@ const Project = props => (
       id={props.id}
       aria-label={props.alt}
     >
-      <ProjectImage src={props.image} id={props.id} alt={props.alt} />
+      <ProjectImage src={props.image} id={props.id2} alt={props.alt} />
       <ProjectAltImage aria-label={props.title} role="img">
         {props.emoji}
       </ProjectAltImage>

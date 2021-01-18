@@ -21,16 +21,32 @@ const Projects = ({ siteTitle }) => (
           />{" "}
           <Project
             title="UCAS Calculator"
-            text="As part of a task for Leeds Beckett University, I've been developing a UCAS Calculator that calculates prospective students grades from their courses to see how many UCAS Points they have using UCAS's live data from their API"
-            para2="Take a look at an early version of the Calculator, bare in mind this is a work in progress and not the final product"
+            text="Leeds Beckett University UCAS points Calculator allowing prospective students to input grades to determine their UCAS Points."
+            para2="Developed with React and accessing live data from a UCAS API. *The Preview Version is using static data*"
             date="January 2021"
             status="Demo Preview"
             link="https://ucas-calculator-preview.netlify.app/"
             id="UCAS"
             image={require("../images/projects/ucas-dark.svg")}
             alt="UCAS"
+            builtwith="Built With"
+            tool={require("../images/react.png")}
+            toolname="React"
           />
           <Project
+            title="React Minis"
+            text="This is a mini Portfolio that showcases small React Projects that I have worked on"
+            date="January 2021"
+            link="https://react-minis.netlify.app"
+            id="React"
+            id2="ReactIcon"
+            image={require("../images/react.png")}
+            alt="React"
+            builtwith="Built With"
+            tool={require("../images/react.png")}
+            toolname="React"
+          />
+          {/* <Project
             title="Salad Builder"
             text="I made this Salad Builder that allows the user to build there own salad with the ingredients provided and on their selection, a dynamic list will pop up with the user's ingredients they have picked out"
             date="January 2021"
@@ -51,7 +67,7 @@ const Projects = ({ siteTitle }) => (
             builtwith="Built With"
             tool={require("../images/react.png")}
             toolname="React"
-          />
+          /> */}
           <Project
             title="Swintons Predictions League"
             text="This project is a family project where we try to predict which teams will win fixtures in the premier league and compete to get the most predictions correct"
