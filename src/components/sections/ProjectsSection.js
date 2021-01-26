@@ -25,7 +25,7 @@ const Projects = ({ siteTitle }) => (
             para2="Developed with React and accessing live data from a UCAS API. *The Preview Version is using static data*"
             date="January 2021"
             status="Demo Preview"
-            link="https://ucas-calculator-preview.netlify.app/"
+            link="https://ucas-calculator.netlify.app/"
             id="UCAS"
             image={require("../images/projects/ucas-dark.svg")}
             alt="UCAS"
@@ -46,28 +46,6 @@ const Projects = ({ siteTitle }) => (
             tool={require("../images/react.png")}
             toolname="React"
           />
-          {/* <Project
-            title="Salad Builder"
-            text="I made this Salad Builder that allows the user to build there own salad with the ingredients provided and on their selection, a dynamic list will pop up with the user's ingredients they have picked out"
-            date="January 2021"
-            link="https://foodstallapp.netlify.app/"
-            id="Salad"
-            emoji="🥗"
-            builtwith="Built With"
-            tool={require("../images/react.png")}
-            toolname="React"
-          />
-          <Project
-            title="Food Stall"
-            text="This a little React Project that I made that allows the user to add products to a basket which will dynamically tell the user the number of items they've added and the total amount they have put in their cart"
-            date="January 2021"
-            link="https://foodstallapp.netlify.app/"
-            id="FoodStall"
-            emoji="🍦"
-            builtwith="Built With"
-            tool={require("../images/react.png")}
-            toolname="React"
-          /> */}
           <Project
             title="Swintons Predictions League"
             text="This project is a family project where we try to predict which teams will win fixtures in the premier league and compete to get the most predictions correct"
