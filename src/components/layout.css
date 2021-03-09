@@ -84,13 +84,18 @@ img.IDEO {
   justify-items: center;
 }
 
+#Academic {
+  background-color: #fff;
+  border-color: #763cbe;
+}
+
 #UCAS {
-  background: #000;
-  border-color: #e00223;
+  background: #763cbe;
+  border-color: #fff;
 }
 
 #UCAS img {
-  max-width: 250px;
+  max-width: 120px;
 }
 
 #ASSIZT {

@@ -5,7 +5,7 @@ import { Link } from "gatsby"
 const FooterSection = ({ siteTitle }) => (
   <FooterArea>
     <Footer>
-      <FooterText>Last Updated January 2021</FooterText>
+      <FooterText>Last Updated March 2021</FooterText>
       <br></br>
       <FooterText>
         Made with
