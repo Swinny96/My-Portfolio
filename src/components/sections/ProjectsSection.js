@@ -40,7 +40,7 @@ const Projects = ({ siteTitle }) => (
             date="Febuary 2021"
             link="https://ucas-calculator.netlify.app/"
             id="UCAS"
-            image={require("../images/projects/ucas.png")}
+            image={require("../images/projects/ucas-calculator.png")}
             alt="UCAS Calculator"
             builtwith="Built With"
             tool={require("../images/react.png")}
