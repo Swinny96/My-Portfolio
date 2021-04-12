@@ -12,13 +12,30 @@ const Projects = ({ siteTitle }) => (
           <Project
             title="SolidRoute"
             text="SolidRoute is a bespoke software development company that supplies systems to waste management organisations across the nation. Currently, the website is being scheduled for development soon"
-            date="Q1 2021"
+            date="Q2 2021"
             status="In Development"
             link=""
             id="SolidRoute"
             image={require("../images/projects/website.png")}
             alt="SolidRoute"
+            builtwith="Built With"
+            tool={require("../images/react.png")}
+            toolname="React"
           />
+{/*           <Project
+            title="PS5 UI"
+            text="Being a massive fan of Sony & Playstation I decided to create a webpage that you can use the PS5s UI on."
+            para2="Using "
+            date="March 2021"
+            status="Desktop Only"
+            link="https://academic-search-lbu.netlify.app/"
+            id="PS5"
+            image={require("../images/projects/ps5.svg")}
+            alt="PS5"
+            builtwith="Built With"
+            tool={require("../images/react.png")}
+            toolname="React"
+          /> */}
           <Project
             title="Academic Supervisior Search"
             text="This Academic Supervisior Search is where users can search for Academic staff at the university and can find them using this search via the school, subject or name."
@@ -38,7 +55,7 @@ const Projects = ({ siteTitle }) => (
             text="For Leeds Beckett University I created an UCAS points Calculator that allows prospective students to input their grades to determine what UCAS Points they have."
             para2="Developed with React and accessing live data from a UCAS API."
             date="Febuary 2021"
-            link="https://ucas-calculator.netlify.app/"
+            link="https://www.leedsbeckett.ac.uk/undergraduate/ucas-tariff/"
             id="UCAS"
             image={require("../images/projects/ucas-calculator.png")}
             alt="UCAS Calculator"
@@ -64,8 +81,8 @@ const Projects = ({ siteTitle }) => (
             text="This project is a family project where we try to predict which teams will win fixtures in the premier league and compete to get the most predictions correct"
             para2="Feel free to view a Demo version of the application as the live version can only be accessed by active users"
             date="January 2021"
-            status="Demo Preview Coming Soon"
-            link="" /* https://swintons-pl-predictions-preview.netlify.app/ */
+            status="Demo Preview"
+            link="https://swintons-pl.netlify.app/"
             id="PL"
             image={require("../images/projects/pl.png")}
             alt="Swintons Predictions League"

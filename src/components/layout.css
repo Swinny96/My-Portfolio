@@ -84,9 +84,19 @@ img.IDEO {
   justify-items: center;
 }
 
+#PS5 {
+  background: url("https://i.ytimg.com/vi/8ehAjJdX9MM/maxresdefault.jpg");
+  background-size: cover;
+  border-color: #333;
+}
+
+#PS5 img {
+  width: 125px;
+}
+
 #Academic {
-  background-color: #fff;
-  border-color: #763cbe;
+  background-color: #763cbe;
+  border-color: #fff;
 }
 
 #UCAS {

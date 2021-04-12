@@ -6,14 +6,13 @@ const About = ({ siteTitle }) => (
   <Section>
     <Title>Hey - I'm Chris!</Title>
     <Text>
-      An Digital Developer for Leeds Beckett University, 1st Class Graduate in Web
-      Design & Development and a former Student of the Year. Highley Skilled,
+      A Front-End Developer for Enghouse Networks, 1st Class Graduate in Web Design
+      & Development and a former Student of the Year. Highley Skilled,
       knowledgeable and experienced with Industry-standard UX tech tooling
       associated with designer & developer competencies and proficiencies.
     </Text>
     <Link className="btn" to="#projects">
-      {" "}
-      Take a Look At My Work ▼{" "}
+      Take a Look At My Work ▼
     </Link>
   </Section>
 )

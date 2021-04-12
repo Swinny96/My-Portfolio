@@ -17,7 +17,7 @@ const Hero = ({ siteTitle }) => (
         src={require("../images/hero/webp/me.webp")}
       />
       <Title>Christopher Swinton</Title>
-      <SubTitle>Digital Developer for Leeds Beckett University</SubTitle>
+      <SubTitle>Front-End Developer for Enghouse Networks</SubTitle>
       <ContactSection>
         <Link
           href="https://www.linkedin.com/in/cswinton96/"
