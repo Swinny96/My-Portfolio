@@ -10,7 +10,7 @@ const Jobs = ({ siteTitle }) => (
       link="https://www.enghouse.com/"
       company="Enghouse Systems"
       image={require("../images/companys/enghouse/enghouse.svg")}
-      darkimage={require("../images/companys/enghouse/enghouse-light.svg")}
+      darkimage={require("../images/companys/enghouse/enghouse-dark.svg")}
       alt="Enghouse Networks"
       text="
       As a Front End Developer, I work within Enghouses in-house development team. Working across a wide variety of client projects.  Implementing a new UI for their core product and improving existing live sites. Taking designs from their UX designers and transforming those designs into HTML and CSS for the java development team.
