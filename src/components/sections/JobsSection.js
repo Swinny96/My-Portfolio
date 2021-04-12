@@ -9,7 +9,7 @@ const Jobs = ({ siteTitle }) => (
       title="Front End Developer"
       link="https://www.enghouse.com/"
       company="Enghouse Systems"
-      image={require("../images/companys/enghouse/enghouse-dark.svg")}
+      image={require("../images/companys/enghouse/enghouse.svg")}
       darkimage={require("../images/companys/enghouse/enghouse-light.svg")}
       alt="Enghouse Networks"
       text="
