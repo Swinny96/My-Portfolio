@@ -187,7 +187,7 @@ const Projects = ({ siteTitle }) => (
             status="Desktop Only"
             link="https://academic-search-lbu.netlify.app/"
             id="PS5"
-            image={require("../images/projects/ps5.svg")}
+            image={require("../images/projects/PS5.svg")}
             alt="PS5"
             builtwith="Built With"
             tool={require("../images/react.png")}
