@@ -26,6 +26,7 @@ class Tab extends Component {
     }
 
     return (
+      /* eslint-disable */
       <li className={className} onClick={onClick}>
         {label}
       </li>
