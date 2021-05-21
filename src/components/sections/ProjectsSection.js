@@ -185,7 +185,7 @@ const Projects = ({ siteTitle }) => (
             para2="As this is in early development currently no preview is avaliable"
             date="March 2021"
             status="Desktop Only"
-            link="https://academic-search-lbu.netlify.app/"
+            link=""
             id="PS5"
             image={require("../images/projects/PS5.svg")}
             alt="PS5"
