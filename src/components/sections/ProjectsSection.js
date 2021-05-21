@@ -10,42 +10,14 @@ const Projects = ({ siteTitle }) => (
       <Year label="2021">
         <ProjectGroup>
           <Project
-            title="SolidRoute"
-            text="SolidRoute is a bespoke software development company that supplies systems to waste management organisations across the nation. Currently, the website is being scheduled for development soon"
-            date="Q2 2021"
-            status="In Development"
-            link=""
-            id="SolidRoute"
-            image={require("../images/projects/website.png")}
-            alt="SolidRoute"
-            builtwith="Built With"
-            tool={require("../images/react.png")}
-            toolname="React"
-          />
-{/*           <Project
-            title="PS5 UI"
-            text="Being a massive fan of Sony & Playstation I decided to create a webpage that you can use the PS5s UI on."
-            para2="Using "
-            date="March 2021"
-            status="Desktop Only"
-            link="https://academic-search-lbu.netlify.app/"
-            id="PS5"
-            image={require("../images/projects/ps5.svg")}
-            alt="PS5"
-            builtwith="Built With"
-            tool={require("../images/react.png")}
-            toolname="React"
-          /> */}
-          <Project
-            title="Academic Supervisior Search"
-            text="This Academic Supervisior Search is where users can search for Academic staff at the university and can find them using this search via the school, subject or name."
-            para2="This is a work in progress and you can preview a development version of the tool"
-            date="March 2021"
-            status="In Development"
-            link="https://academic-search-lbu.netlify.app/"
-            id="Academic"
-            image={require("../images/projects/academic.svg")}
-            alt="Academic"
+            title="React Minis"
+            text="This is a mini Portfolio that showcases small React Projects that I have worked on"
+            date="Updated May 2021"
+            link="https://react-minis.netlify.app"
+            id="React"
+            id2="ReactIcon"
+            image={require("../images/react.png")}
+            alt="React"
             builtwith="Built With"
             tool={require("../images/react.png")}
             toolname="React"
@@ -59,33 +31,6 @@ const Projects = ({ siteTitle }) => (
             id="UCAS"
             image={require("../images/projects/ucas-calculator.png")}
             alt="UCAS Calculator"
-            builtwith="Built With"
-            tool={require("../images/react.png")}
-            toolname="React"
-          />
-          <Project
-            title="React Minis"
-            text="This is a mini Portfolio that showcases small React Projects that I have worked on"
-            date="January 2021"
-            link="https://react-minis.netlify.app"
-            id="React"
-            id2="ReactIcon"
-            image={require("../images/react.png")}
-            alt="React"
-            builtwith="Built With"
-            tool={require("../images/react.png")}
-            toolname="React"
-          />
-          <Project
-            title="Swintons Predictions League"
-            text="This project is a family project where we try to predict which teams will win fixtures in the premier league and compete to get the most predictions correct"
-            para2="Feel free to view a Demo version of the application as the live version can only be accessed by active users"
-            date="January 2021"
-            status="Demo Preview"
-            link="https://swintons-pl.netlify.app/"
-            id="PL"
-            image={require("../images/projects/pl.png")}
-            alt="Swintons Predictions League"
             builtwith="Built With"
             tool={require("../images/react.png")}
             toolname="React"
@@ -202,6 +147,65 @@ const Projects = ({ siteTitle }) => (
             id="R2D2"
             image={require("../images/projects/r2d2.png")}
             alt="R2D2"
+          />
+        </ProjectGroup>
+      </Year>
+      <Year label="Upcoming">
+        <ProjectGroup>
+          <Project
+            title="Swintons Predictions League"
+            text="This project is a family project where we try to predict which teams will win fixtures in the premier league and compete to get the most predictions correct"
+            para2="Feel free to view a Demo version of the application as the live version can only be accessed by active users"
+            date="Summer 2021"
+            status="Demo Preview"
+            link="https://swintons-pl.netlify.app/"
+            id="PL"
+            image={require("../images/projects/pl.png")}
+            alt="Swintons Predictions League"
+            builtwith="Built With"
+            tool={require("../images/react.png")}
+            toolname="React"
+          />
+          <Project
+            title="SolidRoute"
+            text="SolidRoute is a bespoke software development company that supplies systems to waste management organisations across the nation. Currently, the website is being scheduled for development soon"
+            date="Q3 2021"
+            status="In Development"
+            link=""
+            id="SolidRoute"
+            image={require("../images/projects/website.png")}
+            alt="SolidRoute"
+            builtwith="Built With"
+            tool={require("../images/react.png")}
+            toolname="React"
+          />
+          <Project
+            title="PS5 UI"
+            text="Being a massive fan of Sony & Playstation I decided to create a webpage that you can use the PS5s UI on."
+            para2="As this is in early development currently no preview is avaliable"
+            date="March 2021"
+            status="Desktop Only"
+            link="https://academic-search-lbu.netlify.app/"
+            id="PS5"
+            image={require("../images/projects/ps5.svg")}
+            alt="PS5"
+            builtwith="Built With"
+            tool={require("../images/react.png")}
+            toolname="React"
+          />
+          <Project
+            title="Academic Supervisior Search"
+            text="This Academic Supervisior Search is where users can search for Academic staff at the university and can find them using this search via the school, subject or name."
+            para2="This is a work in progress and you can preview a development version of the tool"
+            date="Unknown ETA"
+            status="In Development"
+            link="https://academic-search-lbu.netlify.app/"
+            id="Academic"
+            image={require("../images/projects/academic.svg")}
+            alt="Academic"
+            builtwith="Built With"
+            tool={require("../images/react.png")}
+            toolname="React"
           />
         </ProjectGroup>
       </Year>
