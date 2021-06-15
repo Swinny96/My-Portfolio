@@ -12,7 +12,7 @@ const Projects = ({ siteTitle }) => (
           <Project
             title="React Minis"
             text="This is a mini Portfolio that showcases small React Projects that I have worked on"
-            date="Updated May 2021"
+            date="Updated June 2021"
             link="https://react-minis.netlify.app"
             id="React"
             id2="ReactIcon"
