@@ -8,14 +8,12 @@ const Hero = ({ siteTitle }) => (
     <HeaderSection>
       <Toggle>
         <Icon>
-          <Sun width="20px" height="20px" alt="Sun" src={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/toggle/sun.svg"} />
-          <Moon width="20px" height="20px" alt="Moon" src={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/toggle/moon.svg"} />
+          <Sun alt="Sun" src={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/toggle/sun.svg"} />
+          <Moon alt="Moon" src={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/toggle/moon.svg"} />
         </Icon>
       </Toggle>
       <HeroImage
         alt="Christopher Swinton"
-        width="250px"
-        height="250px"
         src={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/me.webp"}
       />
       <Title>Christopher Swinton</Title>
@@ -28,7 +26,7 @@ const Hero = ({ siteTitle }) => (
           aria-label="View Chris Swintons LinkedIn Profile"
           className="HeroContact"
         >
-          <Contact alt="LinkedIn" width="40px" height="40px" src={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/linkedin.webp"} />
+          <Contact alt="LinkedIn" src={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/linkedin.webp"} />
         </Link>
         <Link
           href="mailto:cswintonux@gmail.com?Subject=UX"
@@ -37,7 +35,7 @@ const Hero = ({ siteTitle }) => (
           aria-label="Email Chris Swinton"
           className="HeroContact"
         >
-          <Contact alt="GMail" width="53px" height="40px" src={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/gmail.webp"} />
+          <Contact alt="GMail" src={"https://lh3.googleusercontent.com/pw/AM-JKLVFMZLU_DvcupVtHpuvM8ZIA7tIRf2MI5tyi0_NuTqQ6DpNSWCLSeuUrEcENsionba87z9eOQEZdaz2UWq4AUmYlICV7RwjLt3SuSTct3NLfOhkYBS8Wly0aowx4MSftEvrv4BRi68AUM_ANMc-kr_K=w1280-h970-no?authuser=0"} />
         </Link>
       </ContactSection>
     </HeaderSection>
@@ -119,6 +117,8 @@ const Moon = styled.img`
 const HeroImage = styled.img`
   display: block;
   margin: auto;
+  width: 250px;
+  height: auto;
   border: 5px solid white;
   border-radius: 50%;
 `
@@ -130,5 +130,6 @@ const SubTitle = styled.p``
 const ContactSection = styled.div``
 
 const Contact = styled.img`
+  height: 40px;
   margin: 0 8px;
 `
