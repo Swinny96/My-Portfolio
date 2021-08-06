@@ -5,7 +5,7 @@ import { Link } from "gatsby"
 const FooterSection = ({ siteTitle }) => (
   <FooterArea>
     <Footer>
-      <FooterText>Last Updated June 2021</FooterText>
+      <FooterText>Last Updated August {new Date().getFullYear()}</FooterText>
       <br></br>
       <FooterText>
         Made with
@@ -15,7 +15,7 @@ const FooterSection = ({ siteTitle }) => (
           rel="noreferrer"
           aria-label="React JS"
         >
-          <FooterImage src={require("../images/react.png")} alt="React" />
+          <FooterImage src={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/react.png"} alt="React" />
         </Link>
       </FooterText>
     </Footer>

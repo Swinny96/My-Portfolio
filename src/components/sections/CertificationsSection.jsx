@@ -9,7 +9,7 @@ const Certification = ({ siteTitle }) => (
                 title="Design Kit: The Course for Human Centered Design"
                 link="https://www.ideo.org/"
                 company="IDEO"
-                image={require('../images/companys/ideo.webp')}
+                image={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/companys/ideo.webp"}
                 text="
                 This 7-week course provided an introduction to the methods and tools of human-centred 
                 design while tackling a real-world design challenge. Topics covered in this course 

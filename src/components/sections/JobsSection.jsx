@@ -9,11 +9,11 @@ const Jobs = ({ siteTitle }) => (
       title="Front End Developer"
       link="https://www.enghouse.com/"
       company="Enghouse Systems"
-      image={require("../images/companys/enghouse/enghouse.svg")}
-      darkimage={require("../images/companys/enghouse/enghouse-dark.svg")}
+      image={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/companys/enghouse/enghouse.svg"}
+      darkimage={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/companys/enghouse/enghouse-dark.svg"}
       alt="Enghouse Networks"
       text="
-      As a Front End Developer, I work within Enghouses in-house development team. Working across a wide variety of client projects.  Implementing a new UI for their core product and improving existing live sites. Taking designs from their UX designers and transforming those designs into HTML and CSS for the java development team.
+      As a Front End Developer, I work within Enghouses in-house development team. Working across a wide variety of client projects.  Implementing new UI for their core product. Taking designs from UX designers and transforming those designs into their product.
       "
       content="
                 <ul>
@@ -24,14 +24,15 @@ const Jobs = ({ siteTitle }) => (
                         <li>Adhering to web standards and ensure optimisation for performance, accessibility, SEO and cross-browser compatibility.</li>
                         <li>Enhance existing products and maintain legacy products and systems</li>
                         <li>Understand the latest and up and coming cutting edge web technology</li>
-                    </ul>"
+                    </ul>
+                "
     />
     <Job
       title="Digital Developer"
       link="https://www.leedsbeckett.ac.uk/"
       company="Leeds Beckett University"
-      image={require("../images/companys/lbu.svg")}
-      darkimage={require("../images/companys/lbudark.svg")}
+      image={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/companys/lbu.svg"}
+      darkimage={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/companys/lbudark.svg"}
       alt="Leeds Beckett University"
       text="
                     Carrying out digital development work for the University’s website transformation project ‘Website 2020’
@@ -57,8 +58,8 @@ const Jobs = ({ siteTitle }) => (
       title="Web & Digital Assistant "
       link="https://www.uclan.ac.uk/"
       company="University Of Central Lancashire"
-      image={require("../images/companys/uclan.svg")}
-      darkimage={require("../images/companys/uclandark.svg")}
+      image={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/companys/uclan.svg"}
+      darkimage={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/companys/uclandark.svg"}
       alt="University Of Central Lancashire"
       text="
                 Working in a fast-paced and dynamic marketing environment to deliver an effective digital offering to

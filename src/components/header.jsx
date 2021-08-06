@@ -8,13 +8,13 @@ const Hero = ({ siteTitle }) => (
     <HeaderSection>
       <Toggle>
         <Icon>
-          <Sun alt="Sun" src={require("../images/toggle/sun.svg")} />
-          <Moon alt="Moon" src={require("../images/toggle/moon.svg")} />
+          <Sun alt="Sun" src={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/toggle/sun.svg"} />
+          <Moon alt="Moon" src={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/toggle/moon.svg"} />
         </Icon>
       </Toggle>
       <HeroImage
         alt="Christopher Swinton"
-        src={require("../images/hero/webp/me.webp")}
+        src={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/me.webp"}
       />
       <Title>Christopher Swinton</Title>
       <SubTitle>Front-End Developer for Enghouse Networks</SubTitle>
@@ -26,7 +26,7 @@ const Hero = ({ siteTitle }) => (
           aria-label="View Chris Swintons LinkedIn Profile"
           className="HeroContact"
         >
-          <Contact alt="LinkedIn" src={require("../images/linkedin.webp")} />
+          <Contact alt="LinkedIn" src={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/linkedin.webp"} />
         </Link>
         <Link
           href="mailto:cswintonux@gmail.com?Subject=UX"
@@ -35,7 +35,7 @@ const Hero = ({ siteTitle }) => (
           aria-label="Email Chris Swinton"
           className="HeroContact"
         >
-          <Contact alt="GMail" src={require("../images/gmail.webp")} />
+          <Contact alt="GMail" src={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/gmail.webp"} />
         </Link>
       </ContactSection>
     </HeaderSection>

@@ -16,10 +16,10 @@ const Projects = ({ siteTitle }) => (
             link="https://react-minis.netlify.app"
             id="React"
             id2="ReactIcon"
-            image={require("../images/react.png")}
+            image={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/react.png"}
             alt="React"
             builtwith="Built With"
-            tool={require("../images/react.png")}
+            tool={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/react.png"}
             toolname="React"
           />
           <Project
@@ -29,10 +29,10 @@ const Projects = ({ siteTitle }) => (
             date="Febuary 2021"
             link="https://www.leedsbeckett.ac.uk/undergraduate/ucas-tariff/"
             id="UCAS"
-            image={require("../images/projects/ucas-calculator.png")}
+            image={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/projects/ucas-calculator.png"}
             alt="UCAS Calculator"
             builtwith="Built With"
-            tool={require("../images/react.png")}
+            tool={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/react.png"}
             toolname="React"
           />
         </ProjectGroup>
@@ -48,7 +48,7 @@ const Projects = ({ siteTitle }) => (
             date="Q1 2021"
             link="https://cswinton-projects.000webhostapp.com/projects/assizt/"
             id="ASSIZT"
-            image={require("../images/projects/assizt.svg")}
+            image={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/projects/assizt.svg"}
             alt="ASSIZT"
           />
           <Project
@@ -60,7 +60,7 @@ const Projects = ({ siteTitle }) => (
             date="Feburary 2020"
             link="https://www.smart-home-help.co.uk/"
             id="smarthomehelp"
-            image={require("../images/projects/smarthomehelp.svg")}
+            image={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/projects/smarthomehelp.svg"}
             alt="Smart Home Help"
           />
           <Project
@@ -69,7 +69,7 @@ const Projects = ({ siteTitle }) => (
             date="January 2020"
             link="https://cswinton-projects.000webhostapp.com/projects/beaverbrooks/"
             id="Beaverbrooks"
-            image={require("../images/projects/beaverbrooks.png")}
+            image={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/projects/beaverbrooks.png"}
             alt="Beaverbrooks"
           />
         </ProjectGroup>
@@ -83,7 +83,7 @@ const Projects = ({ siteTitle }) => (
             date="November 2019"
             link="https://xd.adobe.com/view/55c478a8-d319-4703-7058-33a044c5cd27-23f5/?fullscreen"
             id="UCLan"
-            image={require("../images/projects/uclan.png")}
+            image={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/projects/uclan.png"}
             alt="UCLan Subjects Page"
           />
           <Project
@@ -93,7 +93,7 @@ const Projects = ({ siteTitle }) => (
             date="May 2019"
             link="https://cswinton-projects.000webhostapp.com/projects/alexa/"
             id="GMail"
-            image={require("../images/projects/gmail.png")}
+            image={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/projects/gmail.png"}
             alt="GMail Alexa Skill"
           />
           <Project
@@ -103,7 +103,7 @@ const Projects = ({ siteTitle }) => (
             date="May 2019"
             link="https://xd.adobe.com/embed/3aacf42b-e010-4c13-65a0-3654546607c7-4c9d/?fullscreen"
             id="eyesight"
-            image={require("../images/projects/eyesight.png")}
+            image={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/projects/eyesight.png"}
             alt="Eye Sight"
           />
           <Project
@@ -113,7 +113,7 @@ const Projects = ({ siteTitle }) => (
             date="May 2019"
             link="https://scranpreston.co.uk/"
             id="SCRAN"
-            image={require("../images/projects/scran.png")}
+            image={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/projects/scran.png"}
             alt="SCRAN"
           />
         </ProjectGroup>
@@ -127,7 +127,7 @@ const Projects = ({ siteTitle }) => (
             date="May 2018"
             link="https://cswinton-projects.000webhostapp.com/projects/radar"
             id="Radar"
-            image={require("../images/projects/radar.svg")}
+            image={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/projects/radar.svg"}
             alt="Student Radar"
           />
           <Project
@@ -136,7 +136,7 @@ const Projects = ({ siteTitle }) => (
             date="January 2018"
             link="https://invis.io/2GF9L1XHQ"
             id="UCLan"
-            image={require("../images/projects/uclan.png")}
+            image={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/projects/uclan.png"}
             alt="UCLan Catering Application"
           />
           <Project
@@ -145,7 +145,7 @@ const Projects = ({ siteTitle }) => (
             date="January 2018"
             link="https://cswinton-projects.000webhostapp.com/projects/r2d2"
             id="R2D2"
-            image={require("../images/projects/r2d2.png")}
+            image={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/projects/r2d2.png"}
             alt="R2D2"
           />
         </ProjectGroup>
@@ -160,10 +160,10 @@ const Projects = ({ siteTitle }) => (
             status="Demo Preview"
             link="https://swintons-pl.netlify.app/"
             id="PL"
-            image={require("../images/projects/pl.png")}
+            image={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/projects/pl.png"}
             alt="Swintons Predictions League"
             builtwith="Built With"
-            tool={require("../images/react.png")}
+            tool={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/react.png"}
             toolname="React"
           />
           <Project
@@ -173,10 +173,10 @@ const Projects = ({ siteTitle }) => (
             status="In Development"
             link=""
             id="SolidRoute"
-            image={require("../images/projects/website.png")}
+            image={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/projects/website.png"}
             alt="SolidRoute"
             builtwith="Built With"
-            tool={require("../images/react.png")}
+            tool={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/react.png"}
             toolname="React"
           />
           <Project
@@ -187,10 +187,10 @@ const Projects = ({ siteTitle }) => (
             status="Desktop Only"
             link=""
             id="PS5"
-            image={require("../images/projects/PS5.svg")}
+            image={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/projects/PS5.svg"}
             alt="PS5"
             builtwith="Built With"
-            tool={require("../images/react.png")}
+            tool={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/react.png"}
             toolname="React"
           />
           <Project
@@ -201,10 +201,10 @@ const Projects = ({ siteTitle }) => (
             status="In Development"
             link="https://academic-search-lbu.netlify.app/"
             id="Academic"
-            image={require("../images/projects/academic.svg")}
+            image={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/projects/academic.svg"}
             alt="Academic"
             builtwith="Built With"
-            tool={require("../images/react.png")}
+            tool={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/react.png"}
             toolname="React"
           />
         </ProjectGroup>
