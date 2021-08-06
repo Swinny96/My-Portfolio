@@ -13,7 +13,7 @@ const Project = props => (
       <p>{props.builtwith}</p>
       <BuiltWith>
         <ToolName>{props.toolname}</ToolName>
-        <Tool alt={props.toolname} src={props.tool} />
+        <Tool width="57px" height="40px" alt={props.toolname} src={props.tool} />
       </BuiltWith>
     </ProjectConetents>
     <Link
@@ -120,7 +120,6 @@ const BuiltWith = styled.div`
 `
 const ToolName = styled.strong``
 const Tool = styled.img`
-  max-height: 40px;
 
   @media (prefers-reduced-motion: no-preference) {
     animation: React-spin infinite 10s linear;

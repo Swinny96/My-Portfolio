@@ -7,8 +7,8 @@ const Experince = props => (
     <Job>
         <Title>{props.title}</Title>
         <Link href={props.link} target="_blank" rel="noreferrer" aria-label={props.company}>
-        <Light src={props.image} alt={props.alt} />
-        <Dark src={props.darkimage} alt={props.alt} />
+        <Light height="75px" src={props.image} alt={props.alt} />
+        <Dark height="75px" src={props.darkimage} alt={props.alt} />
         </Link>
         <Text>{props.text}</Text>
         <Accordion 
@@ -22,7 +22,6 @@ export default Experince
 
 const Job = styled.div`
     img{
-    height: 75px;
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
     }
     img:hover{
