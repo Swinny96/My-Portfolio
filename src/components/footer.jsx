@@ -15,7 +15,7 @@ const FooterSection = ({ siteTitle }) => (
           rel="noreferrer"
           aria-label="React JS"
         >
-          <FooterImage src={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/react.png"} alt="React" />
+          <FooterImage width="45px" height="32px" src={"https://filedn.eu/l9x5ubew4MtLjI8ky9eWJay/images/react.png"} alt="React" />
         </Link>
       </FooterText>
     </Footer>
@@ -40,7 +40,6 @@ const FooterText = styled.p`
 `
 
 const FooterImage = styled.img`
-  width: 45px;
 
   @media (prefers-reduced-motion: no-preference) {
     animation: React-spin infinite 10s linear;
